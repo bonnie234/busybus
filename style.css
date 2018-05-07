@@ -1,0 +1,152 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  width: 375px;
+  height: auto;
+}
+
+.bus-stop {
+ width: 375px;
+ padding-top: 30px;
+ margin: 10px;
+ background-color: white;
+ padding: 10px;
+ display: inline-block;
+ vertical-align: bottom;
+ height: 45px;
+}
+
+
+.left-arrow {
+  float: left;
+  width: 20px;
+}
+
+.stop-location h1 {
+  font-size: 17px;
+  font-family: 'SF Pro Text', sans-serif;
+  color: black;
+  font-weight: bold;
+  padding-left: 25px;
+  text-align: center;
+  float: left;
+  width: 280px;
+}
+
+.right-dots {
+  float: right;
+  width: 20px;
+  height: auto;
+  padding-right: 10px;
+}
+
+.small-pic {
+  background-position: center;
+  float: none;
+  display: block;
+  width: 375px;
+}
+
+.info-header h1 {
+  font-family: 'SF Pro Text', sans-serif;
+  color: black;
+  font-size: 17px;
+  line-height: 20px;
+  width: 375px;
+  height: 40px;
+  background-color: #C8C7CC;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+ul {
+  display: inline-block;
+  width: 100%;
+  float: left;
+  margin: auto;
+}
+
+.bus-info {
+  box-sizing: border-box;
+  background-color: white;
+  border-bottom: .5px solid #C8C7CC;
+  width: 100%;
+  height: 55px;
+  vertical-align: middle;
+  float: left;
+  padding-top: 10px;
+}
+
+li {
+  float: left;
+  vertical-align: middle;
+}
+
+.bus-number h1 {
+  font-size: 17px;
+  line-height: 20px;
+  font-family: 'SF Pro text', sans-serif;
+  text-transform: uppercase;
+  color: #535353;
+  font-weight: 500;
+  margin-left:15px;
+  margin-right: 10px;
+  width: 20px;
+
+}
+
+.bus-destination {
+   margin-left: 10px;
+   text-align: left;
+   width: 175px;
+}
+
+.bus-destination h2 {
+  font-size: 17px;
+  line-height: 15px;
+  font-family: 'SF Pro text', sans-serif;
+  color: #8A8A8F;
+}
+
+.bus-destination h3 {
+  font-size: 12px;
+  line-height: 15px;
+  font-family: 'SF Pro text', sans-serif;
+  text-transform: uppercase;
+  color: #8A8A8F;
+}
+
+.bus-time h1 {
+  font-size: 17px;
+  line-height: 20px;
+  font-family: 'SF Pro text', sans-serif;
+  color: #535353;
+  font-weight: 500;
+  width: 80px;
+  vertical-align: center;
+  padding-left: 18px;
+}
+
+.icon {
+  padding-left: 18px;
+}
+
+.arrow {
+  float: right;
+  padding-left: 2px;
+  padding-top: 7px;
+  width: 15px;
+  height: 55px;
+}
+
+.warning-component {
+  float: left;
+}
+
+.arrow:hover {
+  color:blue;
+}
